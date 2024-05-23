@@ -3,7 +3,7 @@ import Person from "../../assets/Person";
 
 const ReviewCard = () => {
   return (
-    <div className="border border-white w-1/4 py-5 px-2">
+    <div className="border border-gray-400 w-1/4 py-5 px-2">
       <div className="flex justify-between">
         <div className="flex">
           <Person />
@@ -18,11 +18,10 @@ const ReviewCard = () => {
       </div>
       <div className="pt-4">
         <p className="text-sm text-black font-bold">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam.
-        </p>
-        <button className="text-orange-600 text-xl font-bold pt-4">
+          Lorem ipsum dolor sit amet,<br />
+           consectetur adipiscing elit. <br /> Sed do eiusmod tempor
+          </p>
+        <button className="text-orange-600 text-lg font-bold pt-4">
           Read More
         </button>
       </div>

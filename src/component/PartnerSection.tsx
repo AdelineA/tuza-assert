@@ -8,10 +8,7 @@ const PartnerSection = () => {
         <h1 className="text-white font-bold text-2xl pt-4 mb-8">
           What People Say
         </h1>
-        <div className="flex gap-5 scroll-auto flex-wrap lg:flex-row">
-          <ReviewCard />
-          <ReviewCard />
-          <ReviewCard />
+        <div className="gap-5 whitespace-nowrap overflow-x-auto flex">
           <ReviewCard />
           <ReviewCard />
           <ReviewCard />
