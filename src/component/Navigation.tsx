@@ -1,5 +1,6 @@
 import React from "react";
 import house from "../assets/house.jpeg";
+import LockCard from "./card/LockCard";
 
 function Navigation() {
   return (
@@ -25,6 +26,9 @@ function Navigation() {
           Propety Managment for Rwandan Diaspora and <br /> for the Diplomates
           in Rwanda
         </h1>
+      </div>
+      <div className="absolute bottom-2 left-10">
+        <LockCard/>
       </div>
     </div>
   );
