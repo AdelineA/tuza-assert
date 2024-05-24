@@ -3,7 +3,7 @@ import Person from "../../assets/Person";
 
 const ReviewCard = () => {
   return (
-    <div className="border border-gray-400 w-1/4 py-5 px-2">
+    <div className="border border-gray-400 lg:w-1/4 py-5 px-2 w-full">
       <div className="flex justify-between">
         <div className="flex">
           <Person />
@@ -16,7 +16,7 @@ const ReviewCard = () => {
           <Google />
         </div>
       </div>
-      <div className="pt-4">
+      <div className="pt-4 px-4">
         <p className="text-sm text-black font-bold">
           Lorem ipsum dolor sit amet,<br />
            consectetur adipiscing elit. <br /> Sed do eiusmod tempor
