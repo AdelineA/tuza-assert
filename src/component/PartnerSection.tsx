@@ -1,13 +1,14 @@
 import React from "react";
 import ReviewCard from "./card/ReviewCard";
 
-import eqty from "../assets/eqty.jpg";
-import bk from "../assets/bk.jpg";
-import radiant from "../assets/radiant.png";
+import bk from '../assets/img/bk.jpg'
+import eqty from '../assets/img/eqty.jpg'
+import radiant from "../assets/img/radiant.png";
+
 
 const PartnerSection = () => {
   return (
-    <div className="bg-green-800">
+    <div className="bg-[#006633]">
       <div className="ml-20 px-5">
         <h1 className="text-white font-bold text-2xl pt-4 mb-8">
           What People Say

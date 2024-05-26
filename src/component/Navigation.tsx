@@ -1,5 +1,5 @@
 import React from "react";
-import house from "../assets/house.jpeg";
+import house from '../assets/img/house.jpeg'
 import LockCard from "./card/LockCard";
 
 function Navigation() {
@@ -11,7 +11,7 @@ function Navigation() {
         className="object-cover w-full brightness-50"
       />
 
-      <div className="absolute left-2 lg:left-1/2 flex text-center justify-center gap-3 text-xl font-bold top-4">
+      <div className="absolute left-2 lg:left-1/2 flex text-center justify-center gap-3 text-lg font-bold top-4">
         <a href="/">Home</a>
         <a href="/about">About us</a>
         <a href="/services">Services</a>
