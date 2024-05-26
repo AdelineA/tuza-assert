@@ -1,6 +1,7 @@
 import React from "react";
 import house from '../assets/img/house.jpeg'
 import LockCard from "./card/LockCard";
+import Language from "./Language";
 
 function Navigation() {
   return (
@@ -18,6 +19,7 @@ function Navigation() {
         <a href="/property">Property Managment</a>
         <a href="/investors">Investors</a>
         <a href="/buy">Buy Plot</a>
+        <Language/>
       </div>
 
       <div className="absolute top-16 lg:top-1/3 left-5 lg:left-1/3 flex flex-col justify-center text-center font-bold uppercase gap-5">
